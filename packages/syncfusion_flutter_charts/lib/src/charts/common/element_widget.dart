@@ -110,7 +110,7 @@ class RenderChartElementLayoutBuilder<T, D> extends RenderBox
   }
 
   void refresh() {
-    markNeedsBuild();
+    markNeedsPaint();
     (child as RenderChartFadeTransition?)?.refresh();
   }
 
